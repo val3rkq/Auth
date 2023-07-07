@@ -1,1 +1,1 @@
-# auth
+# Auth Demo App
