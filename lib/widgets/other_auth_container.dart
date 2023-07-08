@@ -14,8 +14,9 @@ class OtherAuthContainer extends StatelessWidget {
           borderRadius: BorderRadius.circular(15),
           color: Colors.grey.shade300,
         ),
-        padding: EdgeInsets.all(20),
-        child: Image.asset('assets/${nameOfAuthProvider}.png'),
+        alignment: Alignment.center,
+        padding: const EdgeInsets.all(20),
+        child: Image.asset('assets/$nameOfAuthProvider.png'),
       );
   }
 }

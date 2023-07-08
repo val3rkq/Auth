@@ -67,7 +67,10 @@ class _LoginPageState extends State<LoginPage> {
     }
   }
 
-  void signInWithApple() async {}
+  void signInWithApple() async {
+
+    displayMessage(context, 'Sorry.. But this function is not available. :(');
+  }
 
   @override
   void dispose() {
