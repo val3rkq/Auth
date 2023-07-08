@@ -52,12 +52,10 @@ class _LoginPageState extends State<LoginPage> {
         idToken: gAuth.idToken,
       );
 
-      var user = await _auth.signInWithCredential(credential);
-
-      print(_auth.currentUser!.uid);
+      await _auth.signInWithCredential(credential);
 
       await _firestore.collection('users').doc(_auth.currentUser!.uid).set({
-        'uid': user.user!.uid,
+        'uid': _auth.currentUser!.uid,
         'email': gUser.email,
         'password': '',
         'name': gUser.displayName,
