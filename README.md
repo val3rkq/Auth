@@ -1,5 +1,5 @@
 # Auth Demo App Project
-This is just small demo of auth project on Flutter.
+It is just a small demo of AUTH project on Flutter.
 You can use it if you want. :)
 
 ## Screenshots
